@@ -54,12 +54,14 @@ nav {
     */
 }
 
-.hero img {
+.hero img,
+.hero-item img {
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.hero h1,
+.hero-item h1 {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -68,12 +70,26 @@ nav {
     font-weight: bold;
 }
 
-.hero p {
+.hero p,
+.hero-item p {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.2em;
+}
+
+.hero-item {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url(../img/present1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    /*
+        Photo by <a href="https://unsplash.com/@vmxhu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Szabo Viktor</a> on <a href="https://unsplash.com/photos/red-bauble-on-tree-HRcpw5H01Lc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    */
 }
 
 /* Wishlist Grid */
